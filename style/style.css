@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    font-family: "roboto" "raleway";
+    background: #000000
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header__nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.header__nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+.header{
+    margin-bottom: 40px;
+}
+
+.nav__logo1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.list{
+    display: flex;
+    text-align: center;
+}
+
+.link{
+    margin-right: 15px;
+    color: white;
+    transition: .5s;
+    padding: 20px 10px;
+}
+
+.link:hover{
+    background: rgba(105, 207, 23, 0.75);;
+    color: #FFFFFF;
+}
+
+
+.nav{
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(125, 115, 115, 0.5);
+        backdrop-filter: blur(15px);
+}
+
+.one{
+    background: url(../img/nav\ background.png) 0 0/cover no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.bg{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 85px;
+    color: #69CF17;
+}
+
+.beef{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+    color: #69CF17;
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+
+.bg-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.tool{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 25px;
+    text-align: right;    
+    color: #FFFFFF;
+    padding: 33px 76px;
+    background: #69CF1780;
+}
+
+.look{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    padding: 15px 71px;
+}
+
+
+
+.main__sub{
+    background: #292929;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.list2{
+    display: flex;
+}
+
+.link2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 35px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+`
+.card{
+    width: 370px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.img__parent{
+    position: relative;
+    overflow: hidden;
+}
+
+.buy{
+    position: absolute;
+    background: rgba(105, 207, 23, 0.9);
+    top: 100%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.img__parent:hover .buy{
+    left: 0%;
+    top: 0%;
+}
+
+.card__text{
+font-weight: 700;
+font-size: 19px;
+line-height: 15px;
+color: #FFFFFF;
+padding: 10px;
+}
+
+.card__text2{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.img{
+    display: flex;
+    width: 100%;
+}
+
+.map{
+    width: 100%;
+}
+
+.nav__footer{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    padding: 15px;
+    display: flex;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+}
+
+.d_v{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =======second page======== */
+
+.second__text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+}
+
+.meeat{
+    background: url(../img/2nd\ page.png) no-repeat;
+    height: 400px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: rgba(105, 207, 23, 0.7);
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 167px 0;
+    display: flex;
+}
